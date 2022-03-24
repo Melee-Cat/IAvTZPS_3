@@ -21,7 +21,6 @@ mov eax, cpustr; возврат указателя на строку
 pop rbx
 pop rbp ; эпилог
 retn ; возврат
-
 ;----------------------------------
 SECTION .bss
 cpustr: resb 48 ; CPU name string
